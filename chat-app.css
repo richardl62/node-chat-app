@@ -1,10 +1,10 @@
-#message-container {
+#message-display {
     display: inline-block;
     border: 1px black solid;
     min-height: 5em;
     margin-bottom: 2em;
 }
 
-#message-container, #send-text {
+#message-display, #message-to-send {
     width: 30rem;
 }

@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="chat-app.css">
 
     <script defer src="http://localhost:3000/socket.io/socket.io.js"> </script>
-    <script defer src="script.js"></script>
+    <script defer src="chat-app.js"></script>
 </head>
 
 <body>
-    <div id="message-container"></div>
-    <form id="send-container">
-        <input type="text" id="send-text"></div>
+    <div id="message-display"></div>
+    <form id="send-form">
+        <input type="text" id="message-to-send"></div>
         <button type="submit" id="send-button">Send</button>
     </form>
 </body>
